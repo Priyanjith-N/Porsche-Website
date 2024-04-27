@@ -364,7 +364,7 @@ input[type=radio]:checked {
 .btn-model-car span{
     position: absolute;
     font-size: 26px;
-    top: 267.6%;
+    top: 271%;
     left: 16.5%;
 }
 .btn-car-1{
@@ -862,7 +862,25 @@ input[type=radio]:checked {
     padding: 40px 7.1%;
     padding-top: 30px;
 }
-
+.grid-item{
+    position: relative;
+}
+.div-image{
+    top: 0;
+    left: 0;
+}
+.d-r{
+    display: flex;
+    width: fit-content;
+    position: relative;
+}
+.d-a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+}
 /*-----------------------footer-------------------------------*/
 
 .container-6{
